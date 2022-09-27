@@ -91,6 +91,29 @@ export const FeatOutDoorProd = {
     },
     }
 
+export const FeatToysProd = {
+'Play-Doh Modeling Compound 10-Pack Case of Colors, Non-Toxic, Assorted, 2 oz. Cans, Ages 2 and up, Multicolor': {
+Brand:'Play-Doh',
+Title:`Play-Doh Modeling Compound 10-Pack Case of Colors, Non-Toxic, Assorted, 2 oz. Cans, Ages 2 and up, Multicolor`,
+Price: '$7.99',
+imgUrl: require('./assets/ply.png'),
+Desc: `10 cans of creative fun – kids can get creative with just the right colors They need in this Play-Doh 10-pack of 2-ounce cans!
+Just the right colors to start - shape, squish, mix, and make it all. Great for lots of uses like Play-Doh refills, as a Play-Doh Starter set, or as an add-on to any Play-Doh toy (sold separately).
+`
+},
+}
+
+export const FeatBooksProd = {
+'Halo Encyclopedia ': {
+Brand:'Microsoft',
+Title:`Halo Encyclopedia `,
+Price: '$31.49',
+imgUrl: require('./assets/halobook.jpeg'),
+Desc: `In the 26th century, humanity relentlessly continues their fight for survival, an enduring conflict set against the backdrop of the enigmatic and ancient ringworld known as Halo.
+`
+},
+}
+
 export const FeatBeautyProd = {
 'Dial Complete Foaming Hand Soap Refill, Spring Water, 32 Fluid Ounces': {
 Brand:'Dial',
@@ -176,8 +199,13 @@ Title:'2022 Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 64GB ',
 Price: '$749.00',
 category:'Technology',
 imgUrl: require('./assets/iair.png'),
-tDesc: `Supercharged by the Apple M1 chip. 12MP Ultra Wide front camera with Center Stage.
-Blazing-fast 5G. A beautiful 10.9-inch Liquid Retina display delievers an immersive viewing experince.`
+tDesc: `10.9-inch Liquid Retina display with True Tone, P3 wide color, and an antireflective coating
+Apple M1 chip with Neural Engine
+12MP Wide camera
+12MP Ultra Wide front camera with Center Stage
+Up to 256GB of storage
+Available in blue, purple, pink, starlight, and space gray
+Stereo landscape speakers`
 },
 
 'Sceptre 32 inch QHD IPS LED Monitor HDR400 2560x1440 HDMI DisplayPort up to 144Hz 1ms Height Adjustable, Build-in Speakers': {
@@ -583,6 +611,208 @@ category: 'OutDoors & Sports',
 imgUrl: require('./assets/tread.png'),
 Desc: ` SMALL & SMART : Our quality under desk exercise machine keeps you focused, improves productivity and burns far more calories than a standing desk. Home exercise equipment that can fit under desks as low as 27inches.
 ADVANCED DESIGN: With more than twice the resistance range of other foot pedal exercisers, our desk elliptical has 8 calibrated resistance settings so that you're the one in control. The pedals have adjustable straps to keep feet secure and comfortable.`
+},
+
+}
+    
+
+export const ToysProd = {
+'UNO Deluxe Card Game for with 112 Card Deck, Scoring Pad and Pencil, Kid Teen & Adult Game Night for 2 to 10 Players, Makes a Great Gift for 7 Year Olds and Up': {
+Brand:'Mattel Games ',
+Title:'UNO Deluxe Card Game for with 112 Card Deck, Scoring Pad and Pencil, Kid Teen & Adult Game Night for 2 to 10 Players, Makes a Great Gift for 7 Year Olds and Up',
+Price: '$12.99',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/unop.png'),
+Desc: `This classic card game invites two to ten players to challenge each other as individuals or on teams.
+The goal is to be the first to get rid of all your cards, and when there's one card to go, don't forget to yell "UNO!"
+Game comes in a colorful and sturdy tin that's great for storage.
+Everyone loves UNO -kids, teens and adults! Easy to pick up, impossible to put down!`},
+
+'Magic: The Gathering Universes Beyond Warhammer 40,000 Commander Deck Bundle – Includes 1 The Ruinous Powers, 1 Necron Dynasties, 1 Forces of the Imperium, and 1 Tyranid Swarm': {
+Brand:'Magic: The Gathering ',
+Title:`Magic: The Gathering Universes Beyond Warhammer 40,000 Commander Deck Bundle – Includes 1 The Ruinous Powers, 1 Necron Dynasties, 1 Forces of the Imperium, and 1 Tyranid Swarm`,
+Price: '$208.08',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/magg.png'),
+Desc: `Bundle of all 4 Warhammer 40,000 Commander Decks—The Ruinous Powers, Necron Dynasties, Forces of the Imperium, and Tyranid Swarm
+All 4 ready-to-play MTG decks contain 100 Magic cards (2 traditional foil + 98 nonfoil)
+Every card features Warhammer-themed art—including 42 cards that are new to Magic
+Each deck comes with 1 Foil-Etched Display Commander, 10 tokens, 1 life tracker + 1 deck box.`
+},
+
+'Yu-Gi-Oh! TCG: Egyptian God Decks: Slifer The Sky Dragon, Obelisk The Tormentor': {
+Brand:'KONAMI',
+Title:`Yu-Gi-Oh! TCG: Egyptian God Decks: Slifer The Sky Dragon, Obelisk The Tormentor`,
+Price: '$30.00',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/yug.png'),
+Desc: `Awaken the power of the Egyptian God Cards! If you've ever wanted to build a Deck around an Egyptian God Card but didn't know where to start, look no further than the Egyptian God Decks!
+Egyptian God Deck: Slifer the Sky Dragon and Egyptian God Deck: Obelisk the Tormentor serve up simple strategies to Summon and win with either Slifer the Sky Dragon or Obelisk the Tormentor.
+Each Egyptian God Deck contains 40 cards: 4 Ultra Rares, 4 Super Rares, 32 Commons, 1 Deluxe Game Mat/Dueling Guide.
+Set includes: 1x Egyptian God Deck Slifer the Sky Dragon, 1x Egyptian God Deck Obelisk the Tormentor.`
+},
+
+'Pokemon TCG: Pokemon GO Elite Trainer Box': {
+Brand:'Pokemon',
+Title:`Pokemon TCG: Pokemon GO Elite Trainer Box`,
+Price: '$46.99',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/pok.png'),
+Desc: `10 Pokémon TCG: Pokémon GO booster packs.
+1 foil promo card featuring Mewtwo V.
+65 card sleeves featuring Mewtwo.
+45 Pokémon TCG Energy cards.
+A player's guide to the Pokémon GO expansion.`
+},
+
+'Digimon X Bandai Digivice Virtual Pet Monster - Black & Red': {
+Brand:'Digimon ',
+Title:`Digimon X Bandai Digivice Virtual Pet Monster - Black & Red`,
+Price: '$11.49',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/digg.png'),
+Desc: `Digimon X - the next evolution in gameplay
+The original virtual Monster you loved back in the ‘90s is back!
+Everything you love about the original Digimon but with new exciting ways to play and battle: Reverse compatibility with Original Digimon, new facial expressions and exciting quest mode.
+Feed him, provide medical attention, turn lights on/off, clean up after him, check his heath and train him then pit in against your friend’s Digimon in a binary bout
+Battery included. Age 8+`
+},
+
+'21 Pack Pull Back Toy Cars, Mini Die-Cast Race Cars Vehicles Bulk, Party Favor Cars Toys, Goodie Bag Stuffers, Pinata Fillers, Teacher Treasure Prize Box Toys for Boys Girls Toddlers 2,3,4,5 Years O': {
+Brand:'Beestech ',
+Title:`21 Pack Pull Back Toy Cars, Mini Die-Cast Race Cars Vehicles Bulk, Party Favor Cars Toys, Goodie Bag Stuffers, Pinata Fillers, Teacher Treasure Prize Box Toys for Boys Girls Toddlers 2,3,4,5 Years O`,
+Price: '$10.88',
+category: 'Toys, Kids, and Baby',
+imgUrl: require('./assets/toycar.png'),
+Desc: ` S21 colorful mini metal race cars.
+Pull back toy cars, fun and great bulk.
+Great as party favor toy cars, goodie bag, pinata filler.
+Wonderful birthday gift for boys girls.
+Beautiful gift box included.`
+},
+
+}
+    
+export const BooksProd = {
+'Scorn: The Art of the Game Hardcover': {
+Brand:'Matthew Pellett ',
+Title:'Scorn: The Art of the Game Hardcover',
+Price: '$45.00',
+category: 'Books',
+imgUrl: require('./assets/scornbook.jpeg'),
+Desc: `In this coffee table hardback, uncover the concept and vision behind Scorn, alongside insight from the artists and software designers at Ebb. The game is set in a nightmarish universe of odd forms and somber tapestry inspired by the work of H.R. Giger, and designed around the idea of "being thrown into the world". This lavish book explores the characters, creatures, weapons, and locations, with maps, user interfaces, concept art, and original designs. The unsettling biomechanical environment is a character in itself, and every location reveals its own theme, puzzles, and characters that are integral in creating a cohesive lived-in world. “It blends the anatomical and organic with the mechanical and architectural to create fleshy, irregular landscapes inhabited by shambling monstrosities” – PC Gamer magazine`},
+
+'The Complete Book of Mario: The Ultimate Guide to Gaming`s Most Iconic Character': {
+Brand:'Ross Hamilton ',
+Title:`The Complete Book of Mario: The Ultimate Guide to Gaming's Most Iconic Character`,
+Price: '$24.16',
+category: 'Books',
+imgUrl: require('./assets/mariobok.jpeg'),
+Desc: `When Shigeru Miyamoto created "Jumpman" for his new platform game, Donkey Kong, it's highly unlikely that he realized he was creating the most recognizable gaming character of all time. That's exactly what happened though, and after a quick name change to Mario as well as a change in job professions (he started off life as a carpenter) the mascot to end all mascots was born. Everyone remembers the first time they discovered the princess they were rescuing was in another castle, or their first encounter with Bowser. They remember the impact of witnessing a 3D Mario in Super Mario 64 or the time they teared across Rainbow Road in Super Mario Kart. There is no denying that Mario has had an incredible impact on the games industry, and this book celebrates every aspect of the popular character.`
+},
+
+'iPhone Manual for Beginners - The Perfect iPhone Guide for Seniors, Beginners, & First-time iPhone Users Paperback': {
+Brand:'Joe Malacina',
+Title:`iPhone Manual for Beginners - The Perfect iPhone Guide for Seniors, Beginners, & First-time iPhone Users Paperback`,
+Price: '$19.95',
+category: 'Books',
+imgUrl: require('./assets/ipoman.jpeg'),
+Desc: `This book teaches you the building 
+blocks of using the iPhone. It starts out by going 
+over the physical properties of the device, followed by defining some key terms that every iPhone user needs to know. Then the book goes into instruction mode, teaching you all the basics including: creating an Apple ID (which is extremely important), creating a contact list, sending and receiving text messages, placing and answering phone calls, surfing the internet, setting up your e-mail, personalizing your iPhone, securing your iPhone, downloading apps and using the App Store, tips and tricks, and much more.`
+},
+
+'Seniors Guide to Macbook: The Most Complete and Intuitive Step-by-Step Manual to Master Your New Macbook Air and Pro, With Tips and Tricks for Senior Beginner Users': {
+Brand:'Richard Reed',
+Title:`Seniors Guide to Macbook: The Most Complete and Intuitive Step-by-Step Manual to Master Your New Macbook Air and Pro, With Tips and Tricks for Senior Beginner Users`,
+Price: '$17.95',
+category: 'Books',
+imgUrl: require('./assets/bokkmac.jpeg'),
+Desc: `With this guide, you will learn to use your Macbook correctly: not only to stay in touch with your friends, but also to learn useful tricks that will simplify your daily life such as, understanding how to setting system preferences, navigate on internet etc.`
+},
+
+'Garfield Fat Cat 3-Pack ': {
+Brand:'Jim Davis ',
+Title:`Garfield Fat Cat 3-Pack `,
+Price: '$9.99',
+category: 'Books',
+imgUrl: require('./assets/gar.jpeg'),
+Desc: `He used to be perfect, but now he’s even better! Garfield, the fat cat with the super sized ego, is back in the spotlight, dissing his dimwitted owner Jon – even pilfering his pants. Some cats chase mice; Garfield prefers to take legal action. When down on the farm, the city kitty puts up with-and puts down-Jon and his barnyard brother. No wonder Garfield’s often in a bad mood.
+
+But no matter what, he’s always in the mood for food!
+
+The Garfield Fat Cat 3-Pack series collects the GARFIELD comic-strip compilation books in a new, full-color format. Garfield may have gone through a few changes, but one thing has stayed the same: his enormous appetite for food and fun. So enjoy some super sized laughs with the insatiable cat, because too much fun is never enough!`
+},
+
+'The Legend of Zelda: Hyrule Historia ': {
+Brand:'Patrick Thorpe ',
+Title:`The Legend of Zelda: Hyrule Historia `,
+Price: '$32.00',
+category: 'Books',
+imgUrl: require('./assets/zelbo.jpeg'),
+Desc: ` Dark Horse Books and Nintendo team up to bring you The Legend of Zelda: Hyrule Historia, containing an unparalleled collection of historical information on The Legend of Zelda franchise. This handsome hardcover contains never-before-seen concept art, the full history of Hyrule, the official chronology of the games, and much more! Starting with an insightful introduction by the legendary producer and video-game designer of Donkey Kong, Mario, and The Legend of Zelda, Shigeru Miyamoto, this book is crammed full of information about the storied history of Link's adventures from the creators themselves! As a bonus, The Legend of Zelda: Hyrule Historia includes an exclusive comic by the foremost creator of The Legend of Zelda manga — Akira Himekawa!`
+},
+
+}
+export const BeautyProd = {
+'Crest Kid`s Cavity Protection Fluoride Toothpaste, Strawberry Rush, 3 Count': {
+Brand:'Crest ',
+Title:'Crest Kid`s Cavity Protection Fluoride Toothpaste, Strawberry Rush, 3 Count',
+Price: '$8.97',
+category: 'Beauty & Health',
+imgUrl: require('./assets/creatto.png'),
+Desc: `Includes 3 cartons of Crest Kid's Anticavity Cavity Protection Fluoride Toothpaste, Strawberry Rush, 4.2 oz. each.
+Provides effective cavity protection.
+Kids toothpaste with fluoride.
+Delivers fresh breath.
+Fun Strawberry Rush flavor loved by kids.
+Toothpaste is recommended for toddlers and children (2+ years) with proper supervision.`},
+
+'Armaf Club De Nuit Intense Man EDT Men New in Box, Black , 3.6 Fl Oz': {
+Brand:'ARMAF ',
+Title:`Armaf Club De Nuit Intense Man EDT Men New in Box, Black , 3.6 Fl Oz`,
+Price: '$32.20',
+category: 'Beauty & Health',
+imgUrl: require('./assets/frag.png'),
+Desc: `Top Notes: Bergamot , Lemon , Pineapple , Black Current.
+Heart Notes: Birch , Jasmine , Rose.
+Base Notes: Vanilla, AMbergris, Patchouli/`
+},
+
+'L`Oreal Paris True Match Nude Hyaluronic Tinted Serum Foundation with 1% Hyaluronic acid, Medium': {
+Brand:'L`Oreal',
+Title:`L'Oreal Paris True Match Nude Hyaluronic Tinted Serum Foundation with 1% Hyaluronic acid, Medium`,
+Price: '$14.22',
+category: 'Beauty & Health',
+imgUrl: require('./assets/lorper.png'),
+Desc: `Tinted Hydrating Serum Vegan Foundation: Formulated with Hyaluronic Acid to leave skin smoother and more hydrated, plus luminous mineral pigments for lightweight coverage and to brighten complexion.`
+},
+
+'SexyHair Big Blow Dry Volumizing Gel | Added Volume with Hold | Up to 72 Hours of Humidity Resistance': {
+Brand:'SexyHair',
+Title:`SexyHair Big Blow Dry Volumizing Gel | Added Volume with Hold | Up to 72 Hours of Humidity Resistance`,
+Price: '$19.95',
+category: 'Beauty & Health',
+imgUrl: require('./assets/sexfrag.png'),
+Desc: `Ideal for blowouts, this heat-activated formula adds volume and lift with a medium hold and a silky, residue-free finish with thermal protection up to 450˚F.`
+},
+
+'EltaMD UV Clear SPF 46 Tinted Face Sunscreen, Broad Spectrum Sunscreen for Sensitive Skin and Acne-Prone Skin, Oil-Free Mineral-Based Sunscreen, Sheer Face Sunscreen with Zinc Oxide': {
+Brand:'EltaMD ',
+Title:`EltaMD UV Clear SPF 46 Tinted Face Sunscreen, Broad Spectrum Sunscreen for Sensitive Skin and Acne-Prone Skin, Oil-Free Mineral-Based Sunscreen, Sheer Face Sunscreen with Zinc Oxide `,
+Price: '$39.00',
+category: 'Beauty & Health',
+imgUrl: require('./assets/medcr.png'),
+Desc: `This zinc oxide-based, tinted facial sunscreen protects against harmful UVA and UVB rays from the sun.`
+},
+
+'OPI Fall Wonders Collection 2022 | Nail Lacquer & Infinite Shine Long Wear Nail Polish ': {
+Brand:'OPI ',
+Title:`OPI Fall Wonders Collection 2022 | Nail Lacquer & Infinite Shine Long Wear Nail Polish `,
+Price: '$10.79',
+category: 'Beauty & Health',
+imgUrl: require('./assets/finger.png'),
+Desc: ` Stay grounded by the colors of the natural world with the OPI's Fall Wonders Collection, featuring nail polish, long-lasting nail polish, gel nail polish, and dipping powder. Experience the healing power of nature with these down-to-earth shades.`
 },
 
 }

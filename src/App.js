@@ -26,12 +26,17 @@ import FeaturedTechProductDetails from "./DetailPages/FeaturedTechProductDetails
 import FeaturedGamingProductDetails from "./DetailPages/FeaturedGamingProductDetails";
 import FeaturedMusicProductDetails from "./DetailPages/FeaturedMusicProductDetails";
 import FeaturedHomeOutDoorDetails from "./DetailPages/FeaturedMusicProductDetails";
+import FeaturedHomeToysDetails from "./DetailPages/FeaturedHomeToysDetails";
+import FeaturedHomeBooksDetails from "./DetailPages/FeaturedHomeBooksDetails";
+import FeaturedHomeBeautyDetails from "./DetailPages/FeaturedHomeBeautyDetails";
 import TechProductDetails from "./DetailPages/TechProductDetails";
 import GamingProductDetails from "./DetailPages/GamingProductDetails";
 import HouseholdProductDetails from "./DetailPages/HouseHoldProductDetails";
 import FeaturedHouseProductDetails from "./DetailPages/FeaturedHouseProductDetails";
 import OutDoorProductDetails from "./DetailPages/OutDoorProductDetails";
-
+import ToysProductDetails from "./DetailPages/ToysProductDetails";
+import BooksProductDetails from './DetailPages/BooksProductDetails'
+import HomeBeautyProductDetails from "./DetailPages/HomeBeautyProductDetails";
 function App() {
 return (
 <>
@@ -80,6 +85,9 @@ return (
 <Route path="/featuredmusicproducts/:slug" element={<FeaturedMusicProductDetails/>}/>
 <Route path="/featuredhouseproducts/:slug" element={<FeaturedHouseProductDetails/>}/>
 <Route path="/featuredoutdoorproducts/:slug" element={<FeaturedHomeOutDoorDetails/>}/>
+<Route path="/featuredtoysproducts/:slug" element={<FeaturedHomeToysDetails/>}/>
+<Route path="/featuredbookproducts/:slug" element={<FeaturedHomeBooksDetails/>}/>
+<Route path="/featuredbeautyproducts/:slug" element={<FeaturedHomeBeautyDetails/>}/>
 <Route path=":slug" element={<ProductDetails/>}/>
 <Route path="/movieproductdetails/:slug" element={<MovieProductDetails/>}/>
 <Route path="/hometechproductdetails/:slug" element={<TechProductDetails/>}/>
@@ -87,6 +95,9 @@ return (
 <Route path="/homemusicproductdetails/:slug" element={<MusicProductDetails/>}/>
 <Route path="/homehouseproductdetails/:slug" element={<HouseholdProductDetails/>}/>
 <Route path="/homeoutdoorproductdetails/:slug" element={<OutDoorProductDetails/>}/>
+<Route path="/hometoysproductdetails/:slug" element={<ToysProductDetails/>}/>
+<Route path="/homebooksproductdetails/:slug" element={<BooksProductDetails/>}/>
+<Route path="/homebeautyproductdetails/:slug" element={<HomeBeautyProductDetails/>}/>
 
 
 <Route path="*" element={<NoPage/>}/></Routes>

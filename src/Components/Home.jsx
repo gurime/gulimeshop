@@ -15,7 +15,13 @@ MusicProd,
 FeatHomeHouseHoldProd,
 HouseProd,
 FeatOutDoorProd,
-OutDoorProd} from '../db'
+OutDoorProd,
+FeatToysProd,
+ToysProd,
+FeatBooksProd,
+BooksProd,
+FeatBeautyProd,
+BeautyProd} from '../db'
 import '../css/Home.css'
 import Footer from './Footer'
 const Home = () => {
@@ -348,6 +354,144 @@ textAlign:'center'
 ))}
 </div>
 {/**household section products stops here */}
+
+{/**toys section products starts here */}
+<h1 style={{
+fontSize:'60px',
+textAlign:'center'
+
+}}>Toys, Kids, and Baby</h1>
+{Object.entries(FeatToysProd).map(([slug, { Price,Desc, imgUrl,Title }]) => (
+<div style={{backgroundColor:'#e4ebf1'}} key={FeatToysProd} className='hero'>
+<div className='product-img'>
+<Link to={`/featuredtoysproducts/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div> 
+
+
+<div className='hero-details'>
+<h1 className='hero-text'>{Title}
+<br className='hero-text-br'/>
+</h1>
+<p className='hero-subtext'>{Desc}</p>
+<div className="hero-price">{Price}</div>
+</div>
+
+
+</div>
+))}
+
+<div className='grid-container'>
+{Object.entries(ToysProd).map(([slug, { Price, imgUrl,Title,category }]) => (
+<div key={ToysProd} className='card'>
+<div className='product-img'>
+<Link to={`/hometoysproductdetails/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div>
+
+<div className='card-content'>
+<h3 className="card-catogory">{category}</h3>
+<div className="card-title">{Title}</div>
+<div className="card-price">{Price} </div>
+</div>
+</div>
+))}
+</div>
+{/**toys section products stops here */}
+
+{/**books section products starts here */}
+<h1 style={{
+fontSize:'60px',
+textAlign:'center'
+
+}}>Books</h1>
+{Object.entries(FeatBooksProd).map(([slug, { Price,Desc, imgUrl,Title }]) => (
+<div style={{backgroundColor:'#e4ebf1'}} key={FeatBooksProd} className='hero'>
+
+
+
+<div className='hero-details'>
+<h1 className='hero-text'>{Title}
+<br className='hero-text-br'/>
+</h1>
+<p className='hero-subtext'>{Desc}</p>
+<div className="hero-price">{Price}</div>
+</div>
+
+<div className='product-img'>
+<Link to={`/featuredbookproducts/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div> 
+</div>
+))}
+
+<div className='grid-container'>
+{Object.entries(BooksProd).map(([slug, { Price, imgUrl,Title,category }]) => (
+<div key={BooksProd} className='card'>
+<div className='product-img'>
+<Link to={`/homebooksproductdetails/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div>
+
+<div className='card-content'>
+<h3 className="card-catogory">{category}</h3>
+<div className="card-title">{Title}</div>
+<div className="card-price">{Price} </div>
+</div>
+</div>
+))}
+</div>
+{/**books section products stops here */}
+
+{/**books section products starts here */}
+<h1 style={{
+fontSize:'60px',
+textAlign:'center'
+
+}}>Beauty & Health</h1>
+{Object.entries(FeatBeautyProd).map(([slug, { Price,Desc, imgUrl,Title }]) => (
+<div style={{backgroundColor:'#e4ebf1'}} key={FeatBeautyProd} className='hero'>
+
+<div className='product-img'>
+<Link to={`/featuredbeautyproducts/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div> 
+
+<div className='hero-details'>
+<h1 className='hero-text'>{Title}
+<br className='hero-text-br'/>
+</h1>
+<p className='hero-subtext'>{Desc}</p>
+<div className="hero-price">{Price}</div>
+</div>
+
+
+</div>
+))}
+
+<div className='grid-container'>
+{Object.entries(BeautyProd).map(([slug, { Price, imgUrl,Title,category }]) => (
+<div key={BeautyProd} className='card'>
+<div className='product-img'>
+<Link to={`/homebeautyproductdetails/${slug}`}>
+<img   src={imgUrl} alt='...'/>
+</Link>
+</div>
+
+<div className='card-content'>
+<h3 className="card-catogory">{category}</h3>
+<div className="card-title">{Title}</div>
+<div className="card-price">{Price} </div>
+</div>
+</div>
+))}
+</div>
+{/**books section products stops here */}
 
 <Footer/>
 </>
