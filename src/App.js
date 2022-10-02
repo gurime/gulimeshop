@@ -88,7 +88,7 @@ return (
 <Route path="/featuredtoysproducts/:slug" element={<FeaturedHomeToysDetails/>}/>
 <Route path="/featuredbookproducts/:slug" element={<FeaturedHomeBooksDetails/>}/>
 <Route path="/featuredbeautyproducts/:slug" element={<FeaturedHomeBeautyDetails/>}/>
-<Route path=":slug" element={<ProductDetails/>}/>
+<Route path=":slug/*" element={<ProductDetails/>}/>
 <Route path="/movieproductdetails/:slug" element={<MovieProductDetails/>}/>
 <Route path="/hometechproductdetails/:slug" element={<TechProductDetails/>}/>
 <Route path="/homegamingproductdetails/:slug" element={<GamingProductDetails/>}/>
