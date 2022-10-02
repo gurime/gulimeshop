@@ -25,7 +25,7 @@ function Footer() {
 <ul className="footer-navlink">
 <li><a href="#!">Sell products on Gulime</a></li>
 <div className="footer-seperator"></div>
-<li><a className="#!">Invest in Gulime</a></li>
+<li><a href='#!' className="#!">Invest in Gulime</a></li>
 <div className="footer-seperator"></div>
 <li><a href="#!">Advertise your products </a></li>
 <div className="footer-seperator"></div>
@@ -98,8 +98,8 @@ function Footer() {
 </p>
 
 <div  className="footer-logo-box">
-<a className="logo-footer" style={{color: '#fff'}}>
-<img onClick= {scrollTo}   src={footerlogo}/>
+<a href='#!' className="logo-footer" style={{color: '#fff'}}>
+<img onClick= {scrollTo}   src={footerlogo} alt="..."/>
 </a>
 </div>
 </footer>

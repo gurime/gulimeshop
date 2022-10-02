@@ -35,11 +35,11 @@ const HomeBeautyProductDetails = () => {
 </span>
 
 <span className="flex-social-img">
-<a>
+<a href='#!'>
 <FaFacebook/>
 </a>
 
-<a>
+<a href='#!'>
 <FaTwitter/>
 </a>
 </span>

@@ -17,9 +17,11 @@ export const Contact = () => {
 frameborder="0" 
 scrolling="no" 
 marginheight="0" 
-marginwidth="0">
+marginwidth="0"
+title='...'
+>
 </iframe>
-<a href="https://2piratebay.org"></a>
+
 <br/></div></div>
 
 
@@ -33,7 +35,7 @@ marginwidth="0">
 
 <div className="email-box">
 <h2 className="email-title">EMAIL</h2>
-<a  style={{lineHeight:".1rem"}}>ztron500@email.com</a>
+<a href='#!'  style={{lineHeight:".1rem"}}>ztron500@email.com</a>
 <h2 style={{leterSpacing:'.1rem', 
             marginTop:'1rem',
             fontSize:'.75rem',
